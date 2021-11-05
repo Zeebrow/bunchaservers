@@ -1,10 +1,16 @@
 #buncha servers
 
-Get a bunch of Flasks without being known as the town alcoholic
+test your multithreaded curler program!
 
 ## requires
 
 flash
+
+## usage
+
+```
+./servers_up NUM_SERVERS:wq
+```
 
 ## gogo
 
