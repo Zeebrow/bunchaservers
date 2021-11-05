@@ -1,0 +1,895 @@
+42459
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5003/ (Press CTRL+C to quit)
+Traceback (most recent call last):
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 990, in main
+    cli.main(args=sys.argv[1:])
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 596, in main
+    return super().main(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1062, in main
+    rv = self.invoke(ctx)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1668, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 849, in run_command
+    run_simple(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 948, in inner
+    srv = make_server(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 780, in make_server
+    return ThreadedWSGIServer(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 990, in main
+    cli.main(args=sys.argv[1:])
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 596, in main
+    return super().main(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1062, in main
+    rv = self.invoke(ctx)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1668, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 849, in run_command
+    run_simple(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 948, in inner
+    srv = make_server(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 780, in make_server
+    return ThreadedWSGIServer(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5004/ (Press CTRL+C to quit)
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5005/ (Press CTRL+C to quit)
+---------------------------------------------------------------
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 990, in main
+    cli.main(args=sys.argv[1:])
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 596, in main
+    return super().main(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1062, in main
+    rv = self.invoke(ctx)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1668, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 849, in run_command
+    run_simple(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 948, in inner
+    srv = make_server(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 780, in make_server
+    return ThreadedWSGIServer(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 990, in main
+    cli.main(args=sys.argv[1:])
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 596, in main
+    return super().main(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1062, in main
+    rv = self.invoke(ctx)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1668, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 849, in run_command
+    run_simple(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 948, in inner
+    srv = make_server(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 780, in make_server
+    return ThreadedWSGIServer(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 990, in main
+    cli.main(args=sys.argv[1:])
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 596, in main
+    return super().main(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1062, in main
+    rv = self.invoke(ctx)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1668, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 849, in run_command
+    run_simple(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 948, in inner
+    srv = make_server(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 780, in make_server
+    return ThreadedWSGIServer(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+---------------------------------------------------------------
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 990, in main
+    cli.main(args=sys.argv[1:])
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 596, in main
+    return super().main(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1062, in main
+    rv = self.invoke(ctx)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1668, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 849, in run_command
+    run_simple(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 948, in inner
+    srv = make_server(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 780, in make_server
+    return ThreadedWSGIServer(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 990, in main
+    cli.main(args=sys.argv[1:])
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 596, in main
+    return super().main(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1062, in main
+    rv = self.invoke(ctx)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1668, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 849, in run_command
+    run_simple(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 948, in inner
+    srv = make_server(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 780, in make_server
+    return ThreadedWSGIServer(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 990, in main
+    cli.main(args=sys.argv[1:])
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 596, in main
+    return super().main(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1062, in main
+    rv = self.invoke(ctx)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1668, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 849, in run_command
+    run_simple(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 948, in inner
+    srv = make_server(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 780, in make_server
+    return ThreadedWSGIServer(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+---------------------------------------------------------------
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 990, in main
+    cli.main(args=sys.argv[1:])
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 596, in main
+    return super().main(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1062, in main
+    rv = self.invoke(ctx)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1668, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 849, in run_command
+    run_simple(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 948, in inner
+    srv = make_server(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 780, in make_server
+    return ThreadedWSGIServer(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 990, in main
+    cli.main(args=sys.argv[1:])
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 596, in main
+    return super().main(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1062, in main
+    rv = self.invoke(ctx)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1668, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 849, in run_command
+    run_simple(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 948, in inner
+    srv = make_server(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 780, in make_server
+    return ThreadedWSGIServer(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 990, in main
+    cli.main(args=sys.argv[1:])
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 596, in main
+    return super().main(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1062, in main
+    rv = self.invoke(ctx)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1668, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 849, in run_command
+    run_simple(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 948, in inner
+    srv = make_server(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 780, in make_server
+    return ThreadedWSGIServer(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+---------------------------------------------------------------
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 990, in main
+    cli.main(args=sys.argv[1:])
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 596, in main
+    return super().main(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1062, in main
+    rv = self.invoke(ctx)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1668, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 849, in run_command
+    run_simple(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 948, in inner
+    srv = make_server(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 780, in make_server
+    return ThreadedWSGIServer(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 990, in main
+    cli.main(args=sys.argv[1:])
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 596, in main
+    return super().main(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1062, in main
+    rv = self.invoke(ctx)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1668, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 849, in run_command
+    run_simple(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 948, in inner
+    srv = make_server(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 780, in make_server
+    return ThreadedWSGIServer(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 990, in main
+    cli.main(args=sys.argv[1:])
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 596, in main
+    return super().main(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1062, in main
+    rv = self.invoke(ctx)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1668, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 849, in run_command
+    run_simple(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 948, in inner
+    srv = make_server(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 780, in make_server
+    return ThreadedWSGIServer(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+---------------------------------------------------------------
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 990, in main
+    cli.main(args=sys.argv[1:])
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 596, in main
+    return super().main(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1062, in main
+    rv = self.invoke(ctx)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1668, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 849, in run_command
+    run_simple(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 948, in inner
+    srv = make_server(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 780, in make_server
+    return ThreadedWSGIServer(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 990, in main
+    cli.main(args=sys.argv[1:])
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 596, in main
+    return super().main(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1062, in main
+    rv = self.invoke(ctx)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1668, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 849, in run_command
+    run_simple(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 948, in inner
+    srv = make_server(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 780, in make_server
+    return ThreadedWSGIServer(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 990, in main
+    cli.main(args=sys.argv[1:])
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 596, in main
+    return super().main(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1062, in main
+    rv = self.invoke(ctx)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1668, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/flask/cli.py", line 849, in run_command
+    run_simple(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 1008, in run_simple
+    inner()
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 948, in inner
+    srv = make_server(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 780, in make_server
+    return ThreadedWSGIServer(
+  File "/home/zeebrow/repos/github.com/zeebrow/bunchaservers/venv/lib/python3.8/site-packages/werkzeug/serving.py", line 686, in __init__
+    super().__init__(server_address, handler)  # type: ignore
+  File "/usr/lib/python3.8/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.8/http/server.py", line 138, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+---------------------------------------------------------------
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5003/ (Press CTRL+C to quit)
+ * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+---------------------------------------------------------------
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5003/ (Press CTRL+C to quit)
+ * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+---------------------------------------------------------------
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+ * Running on http://127.0.0.1:5003/ (Press CTRL+C to quit)
+---------------------------------------------------------------
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5003/ (Press CTRL+C to quit)
+---------------------------------------------------------------
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+ * Running on http://127.0.0.1:5003/ (Press CTRL+C to quit)
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+---------------------------------------------------------------
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5003/ (Press CTRL+C to quit)
+---------------------------------------------------------------
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5003/ (Press CTRL+C to quit)
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+---------------------------------------------------------------
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5003/ (Press CTRL+C to quit)
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+---------------------------------------------------------------
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Serving Flask app 'server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5002/ (Press CTRL+C to quit)
+ * Running on http://127.0.0.1:5003/ (Press CTRL+C to quit)
+ * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)

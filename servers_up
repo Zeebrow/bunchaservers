@@ -1,0 +1,31 @@
+#!/bin/bash
+
+export FLASK_APP=server.py
+
+PID_FILE=.flask_pids
+LOG_FILE=flask_servers.log
+
+let SERVER_BASE=5000
+
+declare -A port_pids
+
+[ -f "$PID_FILE" ] && echo already running && exit 1 
+echo --------------------------------------------------------------- >> $LOG_FILE
+for i in `seq 1 "$1"`; do 
+    _RUN=$((SERVER_BASE+i))
+    export FLASK_RUN_PORT="$_RUN"
+    ( flask run >> "$LOG_FILE" 2>&1 >> "$LOG_FILE" ) &
+    p=$! 
+    port_pids["$p"]="$_RUN"
+    echo "$p" >> "$PID_FILE"
+done
+
+declare -a pids
+readarray -t pids < "$PID_FILE"
+
+printf "up: ${!port_pids[*]}\n"
+printf "_______________________________\n"
+for i in "${!port_pids[@]}"; do
+  printf "http://localhost:%s/ \n" "${port_pids[$i]}"
+done
+

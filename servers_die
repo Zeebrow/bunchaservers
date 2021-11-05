@@ -1,0 +1,14 @@
+#!/bin/bash
+PID_FILE=.flask_pids
+
+#for flask in `cat $PID_FILE`; do 
+#    kill $flask
+#done
+#
+#declare -a pids
+#readarray -t pids < "$PID_FILE"
+#echo "die: ${pids[*]}"
+
+# lol
+pkill flask
+rm $PID_FILE
